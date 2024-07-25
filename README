@@ -1,0 +1,12 @@
+Create a Pizza Service:
+1. Takes an Order and returns order number if order is accepted. Throws an exception if order can be taken due to some issues
+2. Order consists of size, deliver or pickup, name of customer, list of ingredients, which includes toppings, base and sauce
+3. Toppings can be left, right or all. Base and sauce has no such instruction
+4. Order has certain restrictions, for small, no more than 3 toppings, etc 
+5. Each ingredient has its own inventory in lbs, and based on the size of pizza and portions (1/2, 1), certain quantity is deducted. If inventory is finished, pizza order can not be filled
+
+
+Propose a model representing above services, with interfaces and classes
+
+
+
